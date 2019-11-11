@@ -66,7 +66,7 @@ class VPNC(object):
     def remove_config_file(self):
         """Removes the auto-generated VPNC config file."""
         try:
-            subprocess.check_call(["sudo", "rm", self.config_path])
+            subprocess.check_call(["rm", self.config_path])
             return True
         except subprocess.CalledProcessError:
             return False
