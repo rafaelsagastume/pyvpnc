@@ -75,7 +75,7 @@ class VPNC(object):
         """Connects to VPNC."""
         self.create_config_file()
         self.move_config_file()
-        subprocess.check_call(["vpnc", "tempvpnc"], env=os.environ)
+        subprocess.check_call(["vpnc", self.config_path], env=os.environ)
 
     def disconnect(self):
         """Disconnects from VPNC."""
