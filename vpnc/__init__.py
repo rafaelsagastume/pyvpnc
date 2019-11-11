@@ -39,7 +39,7 @@ class VPNC(object):
         self.config_folder = config_folder
         if config_folder is None:
             if sys.platform.startswith("linux"):
-                self.config_folder = "/tmp/vpnc"
+                self.config_folder = "/etc/vpnc"
             elif sys.platform.startswith("darwin"):
                 self.config_folder = "/usr/local/etc/vpnc"
         self.config_path = os.path.join(self.config_folder, self.config_file)
