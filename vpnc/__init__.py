@@ -20,11 +20,11 @@ Usage:
 (c) Jack Peterson (jack@tinybike.net), 8/31/2015
 
 """
+from __future__ import print_function
 import sys
 import os
 import subprocess
 from contextlib import contextmanager
-from __future__ import print_function
 
 HERE = os.path.dirname(os.path.realpath(__file__))
 
