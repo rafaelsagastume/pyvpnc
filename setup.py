@@ -6,15 +6,15 @@ except ImportError:
 
 setup(
     name="vpnc",
-    version="0.1.1",
+    version="0.0.1",
     description="Cisco VPN connector",
-    author="Jack Peterson",
-    author_email="<jack@tinybike.net>",
-    maintainer="Jack Peterson",
-    maintainer_email="<jack@tinybike.net>",
+    author="Rafael Fernando Garcia Sagastume",
+    author_email="<arcangelsagastume@gmail.com>",
+    maintainer="Rafael Fernando Garcia Sagastume",
+    maintainer_email="<arcangelsagastume@gmail.com>",
     license="MIT",
-    url="https://github.com/tinybike/pyvpnc",
-    download_url = "https://github.com/tinybike/pyvpnc/tarball/0.1.1",
+    url="git+https://github.com/rafaelsagastume/pyvpnc.git",
+    download_url = "git+https://github.com/rafaelsagastume/pyvpnc.git",
     packages=["vpnc"],
     keywords = ["vpnc", "vpn", "network", "Cisco", "concentrator"]
 )
