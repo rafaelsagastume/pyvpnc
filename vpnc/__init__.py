@@ -60,8 +60,8 @@ class VPNC(object):
         /usr/local/etc/vpnc/ (OSX).
         """
         subprocess.check_call(["mv", self.temp_config_path, self.config_folder])
-        subprocess.check_call(["chown", "root:root", self.config_path])
-        subprocess.check_call(["chmod", "600", self.config_path])
+        #subprocess.check_call(["chown", "root:root", self.config_path])
+        #subprocess.check_call(["chmod", "600", self.config_path])
 
     def remove_config_file(self):
         """Removes the auto-generated VPNC config file."""
